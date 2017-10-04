@@ -1,7 +1,7 @@
 from itertools import combinations
-def generate(s,K):
+def generate(s,k):
 	myList = s.split()
-	return list(combinations(myList,K))
+	return list(combinations(myList,1))
 
 
 def calculateProbability(N,s,K):
